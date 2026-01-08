@@ -1,0 +1,35 @@
+# env / cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# conda
+conda/
+Anaconda*/
+Miniconda*/
+
+# model weights
+Qwen3-1.7B/
+**/*.safetensors
+**/*.bin
+
+# ONNX 导出与外部权重
+*.onnx
+*.weight
+*.onnx_data
+*.data
+
+# logs / outputs
+outputs/
+findings/
+*.log
+
+# onnx external data / artifacts
+*.onnx
+*.weight
+onnx__*
